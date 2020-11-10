@@ -1,0 +1,47 @@
+Tree Terminologies
+1.Root :
+        The main head of the whole Tree
+2.Parent
+3.Child
+4.Siblings
+5.Descendants:
+            Nodes below the particular node are descendents
+6.Ancestors:
+            Nodes above the particular node are Ancestors
+7.Degree
+8.Internal Nodes:
+            having degree more than 0
+9.External Node:
+            all leaf nodes or degree equals zero
+10. Levels:
+            Starts from one
+11. Height:
+            Starts from zero
+12. Forest: Collection of trees.
+
+Types OF trees
+1.General Tree:
+            A tree is called a general tree when there is no constraint imposed on the hierarchy of the tree.
+            In General Tree, each node can have infinite number of children.
+2.Binary Tree:
+            Binary tree is the type of tree in which each parent can have at most two children.
+            The children are referred to as left child or right child.
+3.Binary Search Tree:
+            Binary Search Tree (BST) is an extension of Binary tree with some added constraints.
+            In BST, the value of the left child of a node must be smaller than or equal to the value
+            of its parent and the value of the right child is always larger than or equal
+            to the value of its parent.
+4.AVL Tree:
+            AVL tree is a self-balancing binary search tree. The name AVL is given on the name of its inventors Adelson-Velshi and Landis.
+            This was the first dynamically balancing tree.
+
+Types of Binary trees
+1.Full Binary Tree:  A Binary Tree is a full binary tree if every node has 0 or 2 children. 
+2.Complete Binary Tree: A Binary Tree is a complete Binary Tree if all the levels are completely filled except possibly the last level and
+                        the last level has all keys as left as possible.
+3.Perfect Binary Tree: A Binary tree is a Perfect Binary Tree in which all the internal nodes have two children and all leaf nodes are at the same level. 
+4.Balanced Binary Tree: 
+5.A degenerate (or pathological) tree: A Tree where every internal node has one child. 
+                                       Such trees are performance-wise same as linked list. 
+
+
