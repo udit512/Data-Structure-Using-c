@@ -18,12 +18,11 @@ void enqueue(struct TreeNode * Q,struct Queue ** front,struct Queue ** rear){
     t->next = NULL;
     if(*front == NULL){
         *front = *rear = t;
-        printf("Inserted element");
     }
     else{
         (*rear)->next = t;
         *rear = t;
-        printf("Inserted element");
+        
     }
     
 }
