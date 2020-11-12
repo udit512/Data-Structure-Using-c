@@ -18,7 +18,6 @@ void createTree(struct TreeNode ** root){
     *root = (struct TreeNode *)malloc(sizeof(struct TreeNode));
     (*root)->data = x;
     (*root)->rightChild = (*root)->leftChild = NULL;
-    printf("%d",(*root)->data);
     enqueue(*root,&front,&rear);
     while(!isEmpty(front,rear)){
         p = dequqe(&front,&rear);
@@ -48,6 +47,5 @@ void createTree(struct TreeNode ** root){
 void main(){
     struct TreeNode * root = NULL;
     createTree(&root);
-    printf("%d",root->data);
     preOrder(root);
 }
